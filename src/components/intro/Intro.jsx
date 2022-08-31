@@ -15,17 +15,6 @@ export default function Intro() {
      });
   },[]);
 
-  /*
-  useEffect(()=>{
-    init(textRef.current, { 
-      showCursor: true, 
-      backDelay:1500,
-      backSpeed:60,
-      strings: ['Student','dsfds' ]
-    });
-  },[]);
-  */
-
   return (
     <div className="intro" id="intro">
       <div className="left">
